@@ -1,0 +1,8 @@
+{"version": 2, "width": 170, "height": 40, "timestamp": 1773058333, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
+[0.033646, "o", "\u001b[?2004h\u001b]0;ssd256lm@ssd256lm-host: ~/Hexlet/Project_2/qa-auto-engineer-python-project-241\u0007\u001b[01;32mssd256lm@ssd256lm-host\u001b[00m:\u001b[01;34m~/Hexlet/Project_2/qa-auto-engineer-python-project-241\u001b[00m$ "]
+[1.161081, "o", "\u001b[7muv run gendiff file1.yml file2.yml\u001b[27m"]
+[1.743053, "o", "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\buv run gendiff file1.yml file2.yml\r\n\u001b[?2004l\r"]
+[1.85505, "o", "{\r\n  - follow: False\r\n    host: hexlet.io\r\n  - proxy: 123.234.53.22\r\n  - timeout: 50\r\n  + timeout: 20\r\n  + verbose: True\r\n}\r\n"]
+[1.874463, "o", "\u001b[?2004h\u001b]0;ssd256lm@ssd256lm-host: ~/Hexlet/Project_2/qa-auto-engineer-python-project-241\u0007\u001b[01;32mssd256lm@ssd256lm-host\u001b[00m:\u001b[01;34m~/Hexlet/Project_2/qa-auto-engineer-python-project-241\u001b[00m$ "]
+[3.953314, "o", "\u001b[?2004l\r\r\n"]
+[3.956858, "o", "exit\r\n"]

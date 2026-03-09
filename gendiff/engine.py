@@ -1,9 +1,22 @@
 import json
+import yaml
+import os
+
+
+def get_data(file_path):
+    _, extension = os.path.splitext(file_path)
+
+    with open(file_path, 'r') as f:
+        if extension == '.json':
+            return json.load(f)
+        elif extension in ('.yml', '.yaml'):
+            return yaml.safe_load(f)
+    return None
 
 
 def generate_diff(file_path1, file_path2):
-    data1 = json.load(open(file_path1))
-    data2 = json.load(open(file_path2))
+    data1 = get_data(file_path1)
+    data2 = get_data(file_path2)
 
     keys = sorted(set(data1.keys()) | set(data2.keys()))
     result = ['{']

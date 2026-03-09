@@ -5,7 +5,9 @@ description = "Project: Difference Calculator"
 authors = [{ name = "RStructura" }]
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pyyaml>=6.0.3",
+]
 
 [build-system]
 requires = ["hatchling"]
