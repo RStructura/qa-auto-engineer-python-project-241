@@ -24,13 +24,14 @@ jobs:
       - name: Run test coverage
         run: |
           make test-coverage
-      - name: SonarQubeScan
-        uses: SonarSource/sonarqube-scan-action@v6
+      - name: SonarCloud Scan
+        uses: SonarSource/sonarcloud-github-action@master
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
             -Dsonar.projectKey=RStructura_qa-auto-engineer-python-project-241
             -Dsonar.organization=rstructura
             -Dsonar.python.coverage.reportPaths=coverage.xml
-
+            -Dsonar.sources=gendiff
