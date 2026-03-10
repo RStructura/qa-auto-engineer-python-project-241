@@ -1,7 +1,7 @@
 # Difference Calculator (Python)
 
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/RStructura/qa-auto-engineer-python-project-241/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/RStructura/qa-auto-engineer-python-project-241/actions)
+<!--[![Actions Status](https://github.com/RStructura/qa-auto-engineer-python-project-241/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/RStructura/qa-auto-engineer-python-project-241/actions)-->
 [![Hexlet-Check](https://github.com/RStructura/qa-auto-engineer-python-project-241/actions/workflows/hexlet-check.yml/badge.svg?branch=main&event=push)](https://github.com/RStructura/qa-auto-engineer-python-project-241/actions/workflows/hexlet-check.yml)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=RStructura_qa-auto-engineer-python-project-241&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=RStructura_qa-auto-engineer-python-project-241)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=RStructura_qa-auto-engineer-python-project-241&metric=coverage)](https://sonarcloud.io/summary/new_code?id=RStructura_qa-auto-engineer-python-project-241)
