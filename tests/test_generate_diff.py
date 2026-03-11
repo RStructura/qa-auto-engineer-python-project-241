@@ -19,3 +19,12 @@ def test_generate_diff(file_format):
         expected = f.read().strip()
 
     assert generate_diff(file1, file2) == expected
+
+ 
+def test_plain_format():
+    file1 = get_fixture_path('file1.json')
+    file2 = get_fixture_path('file2.json')
+    with open(get_fixture_path('expected_plain.txt')) as f:
+        expected = f.read().strip()
+
+    assert generate_diff(file1, file2, 'plain') == expected

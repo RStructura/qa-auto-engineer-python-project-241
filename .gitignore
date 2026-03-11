@@ -1,8 +1,10 @@
 *.egg-info
-__pycache__
+__pycache__/
 dist/
 *.pyc
-.venv
-.coverage
+.venv/
+*.cast
+.coverage/
 coverage.xml
 *_cache/
+.Makefile.swp
