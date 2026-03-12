@@ -13,4 +13,5 @@
 | **JSON Support** | Compare two flat JSON files and see differences. | `gendiff file1.json file2.json` | [![Play](https://img.shields.io/badge/asciinema-9GBlme-blue?logo=asciinema)](https://asciinema.org/a/wDNhA4K37lZdKikl) |
 | **YAML Support** | Compare two YAML files (.yaml or .yml) with stylish format. | `gendiff file1.yml file2.yml` | [![Play](https://img.shields.io/badge/asciinema-9GBlme-blue?logo=asciinema)](https://asciinema.org/a/J1bubLwNywrvP2df) |
 | **Plain Format** | Output differences as a simple text list. | `gendiff -f plain file1.json file2.json` | [![Play](https://img.shields.io/badge/asciinema-9GBlme-blue?logo=asciinema)](https://asciinema.org/a/Vkb1ICW6YBZBM6j2) |
+| **JSON Format** | Output differences as a machine-readable JSON. | `gendiff -f plain file1.json file2.json` | [![Play](https://img.shields.io/badge/asciinema-9GBlme-blue?logo=asciinema)](https://asciinema.org/a/QufXyPNfNcMK7MRU) |
 
